@@ -1,0 +1,74 @@
+    html{
+        text-align: center;
+    }
+    body{
+                background-color: #efdbe2;
+                font-family:'Times New Roman', Times, serif;
+                margin: 0;
+                padding: 0;
+                line-height: 1.6;
+            }
+            h1,h2,h3,h4{
+                color: #499b5f;
+            }
+            header{
+                background-image: url(fond.jpg);
+                padding: 30px; 
+                text-align: center;
+                padding: 20px;
+            }
+            header h1{
+                color: rgb(255, 255, 255);
+            }
+            .redir{
+                color:#ffcc00;
+                font-weight: bold;
+            }
+            nav ul{
+                list-style: none;
+                padding: 0;
+            }
+            nav ul li{
+                display: inline; /*Todo en el mismo renglon*/
+                margin: 0 15px; /*Recibe dos parametros, vertical - horizontal*/
+            }
+            nav ul li a{
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+            }
+            nav ul li a:hover{
+                color: rgb(255, 106, 106);
+            }
+            main{
+                padding: 20px;
+            }
+            /*cuadradito*/
+            section, article, aside {
+            background-color: rgb(255, 255, 255); /* color de fondo */
+            padding: 10px;                        /* espacio interno (del borde hacia adentro) */
+            margin-bottom: 20px;                  /* espacio externo debajo del cuadro */
+            border-radius: 10px;                  /* esquinas redondeadas */
+            box-shadow: 0 0 5px gray;             /* sombra alrededor */
+            width: auto;
+            height: auto;
+}
+            aside{
+                background-color: rgb(255, 255, 255);
+                border-left: 4px solid rgb(134, 197, 198) ;
+            }
+            table{
+                 display: inline-block; /*psra centrar la tabla tambien*/
+                }
+            #hobbies{
+                display: inline-block;       /* mantiene la lista como bloque en línea */
+                vertical-align: top;         /* alinea arriba */
+                margin-right: 20px;          /* espacio con la imagen */
+            }
+            
+            footer{
+                background-color: rgb(73, 67, 67);
+                padding: 30px;
+                text-align: center;
+                color: aliceblue;
+            }
